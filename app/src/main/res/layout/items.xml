@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_margin="8dp">
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:padding="8dp">
+    <ImageView
+            android:layout_width="104dp"
+            android:layout_height="92dp"
+            android:id="@+id/img1"
+            android:src="@drawable/maison"
+    />
+    <TextView
+            android:id="@+id/titre1"
+            android:layout_width="84dp"
+              android:layout_height="29dp"
+              android:layout_toRightOf="@+id/img1"
+              android:text="Maison"
+              android:textStyle="bold"
+              android:textSize="24sp"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/def1"
+              android:layout_toRightOf="@+id/img1"
+              android:layout_below="@+id/titre1"
+              android:text="Bâtiment construit pour servir d'habitation aux personnes"
+              />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
